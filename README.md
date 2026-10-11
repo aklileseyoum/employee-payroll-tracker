@@ -8,12 +8,13 @@ A command-line app that registers employees (full-time, contract, intern) and ge
 
 1. Clone the repository:
 ```
-   git clone <YOUR-REPO-URL>
-   cd Employee_Payroll_Tracker
+   git clone https://github.com/aklileseyoum/employee-payroll-tracker.git
+   cd employee-payroll-tracker
 ```
 2. Install the project:
 ```
-   <FILL IN: the command you used, e.g. your Poetry install command or venv + pip steps>
+   poetry install
+   poetry run python src/employee_payroll_tracker/main.py
 ```
 
 ## Usage
@@ -35,7 +36,15 @@ Employees are stored in memory only, so they are lost when the program closes.
 ## Sample Output
 
 ```
-<FILL IN: paste one payslip from your terminal here>
+==============================
+            aklile            
+==============================
+Gross Salary            800.00
+Bonus                 1,000.00
+Total Salary          1,800.00
+Tax Percentage             15%
+Net Salary            1,530.00
+------------------------------
 ```
 
 ## Project Structure
